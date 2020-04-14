@@ -8,18 +8,6 @@
 
 import Foundation
 
-class TreeNode {
-    var val: Int
-    var left: TreeNode?
-    var right: TreeNode?
-    init(_ val: Int) {
-        self.val = val
-        self.left = nil
-        self.right = nil
-    }
-}
-
-
 //Question 1
 
 //Given a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only 1 right child.

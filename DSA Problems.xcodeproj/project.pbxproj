@@ -15,6 +15,8 @@
 		0877E38C244628A9004EF640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0877E38A244628A9004EF640 /* LaunchScreen.storyboard */; };
 		0877E397244628A9004EF640 /* DSA_ProblemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0877E396244628A9004EF640 /* DSA_ProblemsTests.swift */; };
 		0877E3A6244629EE004EF640 /* IncreasingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0877E3A5244629EE004EF640 /* IncreasingOrder.swift */; };
+		08DDDE7B24463DB100102464 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DDDE7A24463DB100102464 /* InvertBinaryTree.swift */; };
+		08DDDE7D24463DC900102464 /* TreeNodeDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DDDE7C24463DC900102464 /* TreeNodeDefinition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		0877E396244628A9004EF640 /* DSA_ProblemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSA_ProblemsTests.swift; sourceTree = "<group>"; };
 		0877E398244628A9004EF640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0877E3A5244629EE004EF640 /* IncreasingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingOrder.swift; sourceTree = "<group>"; };
+		08DDDE7A24463DB100102464 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
+		08DDDE7C24463DC900102464 /* TreeNodeDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeDefinition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 		0877E3A1244628B2004EF640 /* Trees */ = {
 			isa = PBXGroup;
 			children = (
+				08DDDE7C24463DC900102464 /* TreeNodeDefinition.swift */,
 				0877E3A5244629EE004EF640 /* IncreasingOrder.swift */,
+				08DDDE7A24463DB100102464 /* InvertBinaryTree.swift */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -236,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0877E384244628A6004EF640 /* ViewController.swift in Sources */,
+				08DDDE7B24463DB100102464 /* InvertBinaryTree.swift in Sources */,
 				0877E3A6244629EE004EF640 /* IncreasingOrder.swift in Sources */,
 				0877E380244628A6004EF640 /* AppDelegate.swift in Sources */,
+				08DDDE7D24463DC900102464 /* TreeNodeDefinition.swift in Sources */,
 				0877E382244628A6004EF640 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
